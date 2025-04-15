@@ -21,14 +21,11 @@ const Login = () => {
 
     if (state === 'Admin') {
 
-      const data  = await axios.post(backendUrl + '/api/admin/login', { email, password })
-      // const { data } = await axios.post(backendUrl + '/api/admin/login', { email, password })
-      console.log("data while login", data);
+      const { data } = await axios.post(backendUrl + '/api/admin/login', { email, password })
       if (data.success) {
         setAToken(data.token)
         localStorage.setItem('aToken', data.token)
       } else {
-        console.log("data not coming while login", data);
         toast.error(data.message)
       }
 
