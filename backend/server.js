@@ -15,7 +15,15 @@ connectCloudinary()
 
 // middlewares
 app.use(express.json())
-app.use(cors())
+// app.use(cors())
+app.use(cors({
+  origin: [
+    "https://medipoint-admin.vercel.app",
+    "https://medipoint-gamma.vercel.app/", 
+    "http://localhost:3000"  // For local development
+  ],
+  credentials: true
+}));
 
 // api endpoints
 app.use("/api/user", userRouter)
