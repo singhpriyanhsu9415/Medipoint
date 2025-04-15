@@ -22,6 +22,7 @@ app.use(cors({
     "https://medipoint-gamma.vercel.app/", 
     "http://localhost:3000"  // For local development
   ],
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
 
