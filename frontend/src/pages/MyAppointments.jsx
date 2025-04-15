@@ -192,7 +192,7 @@ const MyAppointments = () => {
                     Pay Online
                   </button>
                 )}
-              {!item.cancelled &&
+              {/* {!item.cancelled &&
                 !item.payment &&
                 !item.isCompleted &&
                 payment === item._id && (
@@ -206,7 +206,7 @@ const MyAppointments = () => {
                       alt=""
                     />
                   </button>
-                )}
+                )} */}
               {!item.cancelled &&
                 !item.payment &&
                 !item.isCompleted &&
