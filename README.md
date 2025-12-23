@@ -105,7 +105,7 @@ The application is designed with a **clean UI**, **secure authentication**, and 
 <img width="1616" height="951" alt="Screenshot 2025-12-24 004736" src="https://github.com/user-attachments/assets/53f8b248-cfe4-4d49-be2f-d881a4abc194" />
 
 
-> 📌 **Note:** Place your screenshots inside a `screenshots/` folder in the repository.
+
 
 ---
 
