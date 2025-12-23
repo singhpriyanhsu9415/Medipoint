@@ -80,7 +80,7 @@ The application is designed with a **clean UI**, **secure authentication**, and 
 
 ### Deployment
 - Frontend: Vercel
-- Backend: Node Server
+- Backend: Render
 - Database: MongoDB Atlas
 
 ---
